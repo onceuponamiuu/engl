@@ -1,0 +1,66 @@
+{
+  "id" : "https://onceuponamiuu.github.io/engl/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in onceuponamiuu/engl project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 6000,
+    "id" : "https://onceuponamiuu.github.io/engl/images/DSCF6045/canvas/",
+    "label" : {
+      "none" : [ "DSCF6045" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://onceuponamiuu.github.io/engl/images/DSCF6045/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://onceuponamiuu.github.io/engl/images/DSCF6045/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 188,
+              "height" : 125
+            }, {
+              "width" : 375,
+              "height" : 250
+            }, {
+              "width" : 750,
+              "height" : 500
+            }, {
+              "width" : 1500,
+              "height" : 1000
+            }, {
+              "width" : 3000,
+              "height" : 2000
+            }, {
+              "width" : 6000,
+              "height" : 4000
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 6000,
+            "@id" : "https://onceuponamiuu.github.io/engl/images/DSCF6045",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 4000
+          } ],
+          "format" : "image/jpeg",
+          "width" : 6000,
+          "id" : "https://onceuponamiuu.github.io/engl/images/DSCF6045/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 4000
+        },
+        "target" : "https://onceuponamiuu.github.io/engl/images/DSCF6045/canvas/"
+      } ]
+    } ],
+    "height" : 4000
+  } ]
+}
