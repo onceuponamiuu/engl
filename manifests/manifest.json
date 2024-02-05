@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://onceuponamiuu.github.io/engl/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://349dbf25-b518-4220-9f48-3c3497f4aa34",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b9f9d171-def8-484d-9c60-82c4db0f6b02",
+      "@type" : "sc:Canvas",
+      "label" : "Tet Lunar new year",
+      "height" : "1024",
+      "width" : "1024",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3b131b5e-7a2f-416d-a37f-ac830b6de2ad",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://onceuponamiuu.github.io/New-year-Mekong-Delta/images/am-thuc-rieng-ngay-tet/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://onceuponamiuu.github.io/New-year-Mekong-Delta/images/am-thuc-rieng-ngay-tet",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 910,
+          "width" : 1366
+        },
+        "on" : "http://b9f9d171-def8-484d-9c60-82c4db0f6b02"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9d3ca9f3-d21a-4bce-903d-bd203eab1c2c",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 608,
+      "width" : 1080,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://898c7230-0d17-4a7c-8e3d-8dfa1d4771ec",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://onceuponamiuu.github.io/New-year-Mekong-Delta/images/cho-tet-tren-song/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://onceuponamiuu.github.io/New-year-Mekong-Delta/images/cho-tet-tren-song",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 608,
+          "width" : 1080
+        },
+        "on" : "http://9d3ca9f3-d21a-4bce-903d-bd203eab1c2c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7cac13e7-03b0-4737-90e0-515d3b3a173f",
+      "@type" : "sc:Canvas",
+      "label" : "Flower",
+      "height" : 447,
+      "width" : 660,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://678e51ed-300b-4a81-bdfd-24504ed4c528",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://onceuponamiuu.github.io/New-year-Mekong-Delta/images/hoa-tet-mien-tay-1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://onceuponamiuu.github.io/New-year-Mekong-Delta/images/hoa-tet-mien-tay-1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 447,
+          "width" : 660
+        },
+        "on" : "http://7cac13e7-03b0-4737-90e0-515d3b3a173f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
